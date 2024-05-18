@@ -18,7 +18,7 @@
 			<button name="login" value="login" class="btn btn-primary"><i class="fa fa-sign-in"></i>Log In</button>
 		</div>
 	</form>
-	<center><a href="customer_registration">
+	<center><a href="customer_registration.php">
 		<h3>New ? Register Now </h3>
 	</a></center>
 </div>

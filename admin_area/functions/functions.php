@@ -1,7 +1,7 @@
 
 <?php
 
-$db=mysqli_connect("localhost","root","","e_com");
+$con=mysqli_connect("mydb.cz4amaqgelhg.us-east-1.rds.amazonaws.com","admin","password","e_com");
 function getPro(){
 	global $db;
 	$get_product="select * from products order by 1 DESC LIMIT 0,6";
@@ -19,7 +19,7 @@ function getPro(){
 		</a>
 		
 		<h3><a href='details.php?pro_id=$pro_id'>$pro_title  </a></h3>
-		<p class='price'> INR $pro_price</p>
+		<p class='price'> RM $pro_price</p>
 		<p class='buttons'> 
 		<a href='details.php?pro_id=$pro_id' class='btn btn-default'>View Details</a>
 		<a href='details.php?pro_id=$pro_id' class='btn btn-primary'><i class='fa fa-shopping-cart'></i>Add to Cart</a>

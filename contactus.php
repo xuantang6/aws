@@ -52,7 +52,7 @@ include("functions/functions.php");
 
         ?>
     </a>
-<a id="pr" href="#"> Shopping Cart Total Price: INR <?php totalPrice(); ?>, Total Items <?php item(); ?></a>
+<a id="pr" href="#"> Shopping Cart Total Price: RM <?php totalPrice(); ?>, Total Items <?php item(); ?></a>
 </div>
   
 </div>

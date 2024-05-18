@@ -80,7 +80,7 @@ if(isset($_GET['pro_id'])){
 
         ?>
     </a>
-<a id="pr" href="#"> Shopping Cart Total Price: ₹ <?php totalPrice(); ?>, Total Items <?php item(); ?></a>
+<a id="pr" href="#"> Shopping Cart Total Price: RM <?php totalPrice(); ?>, Total Items <?php item(); ?></a>
 </div>
   
 </div>
@@ -321,7 +321,7 @@ function showSlides(n) {
         </select>
       </div>
     </div>
-    <p class="price"><i class="fa fa-inr"></i><?php echo $p_price; ?></p>
+    <p class="price"><i class="fa ">RM</i><?php echo $p_price; ?></p>
     <p class="text-center buttons">
       <button class="btn-prim" type="submit"><i class=" fa fa-shopping-cart">Add to cart</i></button>
     </p>

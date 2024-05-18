@@ -86,7 +86,7 @@ function getPro(){
 		</a>
 		
 		<h3><a href='details.php?pro_id=$pro_id'><span>$pro_title </span> </a></h3>
-		<p class='price'> INR $pro_price</p>
+		<p class='price'> RM $pro_price</p>
 		<p class='buttons'> 
 		<a href='details.php?pro_id=$pro_id' class='btn btn-default'>View Details</a>
 		<a href='details.php?pro_id=$pro_id' class='btn btn-primary'><i class='fa fa-shopping-cart'></i>Add to Cart</a>

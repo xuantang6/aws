@@ -50,7 +50,7 @@ include("functions/functions.php");
 
         ?>
     </a>
-<a id="pr" href="#"> Shopping Cart Total Price: INR <?php totalPrice(); ?>, Total Items <?php item(); ?></a>
+<a id="pr" href="#"> Shopping Cart Total Price: RM <?php totalPrice(); ?>, Total Items <?php item(); ?></a>
 </div>
   
 </div>
@@ -194,10 +194,10 @@ include("functions/functions.php");
              <td><img src="admin_area/product_images/<?php echo $p_img1 ?>"></td>
              <td><?php echo $p_title ?></td>
              <td><?php echo $pro_qty ?></td>
-             <td>INR <?php echo $p_price ?></td>
+             <td>RM <?php echo $p_price ?></td>
              <td><?php echo $pro_size ?></td>
              <td><input type="checkbox" name="remove[]" value="<?php echo $pro_id ?>"></td>
-             <td>INR <?php echo $sub_total ?></td>
+             <td>RM <?php echo $sub_total ?></td>
            </tr>
            <?php } } ?>
         </tfoot>
@@ -207,7 +207,7 @@ include("functions/functions.php");
           <h4>Total Price</h4>
          </div>
          <div class="pull-right">
-           <h4>INR <?php echo $total; ?></h4>
+           <h4>RM <?php echo $total; ?></h4>
          </div>
        </div>
 
@@ -261,18 +261,18 @@ echo @$up_cart=update_cart();
        <table class="table">
          <tr>
            <td>Order Sub Total</td>
-           <th>INR <?php echo $total ?></th>
+           <th>RM <?php echo $total ?></th>
          </tr>
          <tr>
            <td>Shipping and handling</td>
-           <td>INR 0</td>
+           <td>RM 0</td>
            <tr>
              <td>Tax</td>
-             <td>INR 0</td>
+             <td>RM 0</td>
            </tr>
            <tr class="Total">
             <td>Total</td>
-            <th>INR <?php echo $total ?></th>
+            <th>RM <?php echo $total ?></th>
              
            </tr>
          </tr>
@@ -280,101 +280,7 @@ echo @$up_cart=update_cart();
      </div>
    </div>
  </div>
-<div id="row same-height-row">
-  <div class="col-md-3 col-sm-6">
-    <div class="box same-height headlin">
-      <h3 class="text-center">You also like these products</h3>
-    </div>
-  </div>
-  <div class="d-3">
-    <div class="product same-height">
-      <a href="">
-        <img src="website/all/lotion.svg" class="img-responsive">
-      </a>
-      <div class="tet">
-        <h3><a href="details.php">Nivea Lotion for men</a></h3>
-        <p class="price"><i class="fa fa-inr"></i>199</p>
-      </div>
-    </div>
-  </div>
-  <div class="d-3">
-    <div class="product same-height">
-      <a href="">
-        <img src="website/all/cre.svg" class="img-responsive">
-      </a>
-      <div class="tet">
-        <h3><a href="details.php">Shaving Cream</a></h3>
-        <p class="price"><i class="fa fa-inr"></i>99</p>
-      </div>
-    </div>
-  </div>
-  <div class="d-3">
-    <div class="product same-height">
-      <a href="">
-        <img src="website/all/comb.svg" class="img-responsive">
-      </a>
-      <div class="tet">
-        <h3><a href="details.php">Comb</a></h3>
-        <p class="price"><i class="fa fa-inr"></i>16</p>
-      </div>
-    </div>
-  </div>
-  <div class="d-3">
-    <div class="product same-height">
-      <a href="">
-        <img src="website/all/drayer.svg" class="img-responsive">
-      </a>
-      <div class="tet">
-        <h3><a href="details.php">Hair Dryer</a></h3>
-        <p class="price"><i class="fa fa-inr"></i>340</p>
-      </div>
-    </div>
-  </div>
-  <div class="d-3">
-    <div class="product same-height">
-      <a href="">
-        <img src="website/all/scissor.svg" class="img-responsive">
-      </a>
-      <div class="tet">
-        <h3><a href="details.php">Indian Scissor</a></h3>
-        <p class="price"><i class="fa fa-inr"></i>70</p>
-      </div>
-    </div>
-  </div>
-  <div class="d-3">
-    <div class="product same-height">
-      <a href="">
-        <img src="website/all/color.svg" class="img-responsive">
-      </a>
-      <div class="tet">
-        <h3><a href="details.php">Hair Color</a></h3>
-        <p class="price"><i class="fa fa-inr"></i>76</p>
-      </div>
-    </div>
-  </div>
-   <div class="d-3">
-    <div class="product same-height">
-      <a href="">
-        <img src="website/all/blad.svg" class="img-responsive">
-      </a>
-      <div class="tet">
-        <h3><a href="details.php">Blade</a></h3>
-        <p class="price"><i class="fa fa-inr"></i>85</p>
-      </div>
-    </div>
-  </div>
-   <div class="d-3">
-    <div class="product same-height">
-      <a href="">
-        <img src="website/all/napkin.svg" class="img-responsive">
-      </a>
-      <div class="tet">
-        <h3><a href="details.php">Napkin</a></h3>
-        <p class="price"><i class="fa fa-inr"></i>20</p>
-      </div>
-    </div>
-  </div>
-</div>
+
 
      <!-- footer section starts  -->
    <?php
